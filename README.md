@@ -1,65 +1,69 @@
-   # Dashboard de Vendas de Veículos
+# 📊 Dashboard de Vendas de Veículos
 
-Dashboard interativo em Streamlit para explorar dados de anúncios de vendas de veículos nos EUA.
+Dashboard interativo desenvolvido com **Streamlit** para visualização de dados de anúncios de veículos nos EUA.  
+O objetivo do projeto é praticar tarefas de engenharia de software, como:  
+- criação de ambiente virtual Python  
+- uso de Git/GitHub  
+- desenvolvimento de aplicativo web com Streamlit  
+- deploy em nuvem com Render  
 
-## 🔍 Descrição
+## 🚗 Funcionalidades
 
-Este projeto tem como objetivo criar um aplicativo web simples utilizando **Streamlit**, com visualizações interativas construídas com **Plotly Express**. A aplicação permite ao usuário visualizar:
+- 📈 Visualização de histograma da coluna `odometer` (quilometragem dos veículos)
+- 💰 Gráfico de dispersão entre `odometer` e `price` (preço)
+- 📊 Dados interativos com **Plotly Express**
+- 🌐 Aplicativo disponível online via **Render**
 
-- Um **histograma** da quilometragem (`odometer`) dos veículos
-- Um **gráfico de dispersão** entre quilometragem e preço (`price`)
+## 🛠️ Tecnologias
 
-O foco do projeto é a prática de engenharia de software, incluindo o uso de ambientes virtuais, versionamento com Git/GitHub, criação de dashboards com Streamlit e deploy na nuvem com Render.
+- Python 3.8+
+- Streamlit
+- Plotly Express
+- Pandas
 
-## 📁 Estrutura do Projeto
-
-.
-├── README.md
-├── app.py
-├── vehicles_us.csv
-├── requirements.txt
-├── notebooks/
-│ └── EDA.ipynb
-└── .streamlit/
-└── config.toml
-
-
-## 🚀 Acesse o Aplicativo
-
-Aplicativo online hospedado no Render:  
-👉 [https://sprint-5-veiculos-6j0h.onrender.com](https://sprint-5-veiculos-6j0h.onrender.com)
-
-## ⚙️ Como Executar Localmente
+## ▶️ Como executar localmente
 
 1. Clone o repositório:
 
-git clone https://github.com/mbweyne/P5-VEICULO.git
-cd nome-do-repositorio
+```bash
+git clone https://github.com/mbweyne/P5-veiculo.git
+cd P5-veiculo
 Crie e ative um ambiente virtual:
 
-
+bash
+Copy
+Edit
 python -m venv vehicles_env
-source vehicles_env/bin/activate   # ou .\vehicles_env\Scripts\activate no Windows
+.\vehicles_env\Scripts\activate    # Windows
 Instale as dependências:
 
-
+bash
+Copy
+Edit
 pip install -r requirements.txt
 Execute o app:
 
-
+bash
+Copy
+Edit
 streamlit run app.py
-📦 Requisitos
-Python 3.8+
+📂 Estrutura do projeto
+arduino
+Copy
+Edit
+.
+├── app.py
+├── vehicles_us.csv
+├── requirements.txt
+├── README.md
+├── EDA.ipynb
+└── .streamlit/
+    └── config.toml
+🌍 Aplicação online
+Acesse o app no Render:
+👉 https://p5-veiculo.onrender.com
 
-pandas
-
-plotly_express
-
-streamlit
-
-📊 Dataset
-O conjunto de dados vehicles_us.csv contém informações sobre anúncios de vendas de veículos nos EUA, incluindo colunas como price, odometer, model_year, transmission, entre outras.
-
-✍️ Autor
+👩‍💻 Autor(a)
 Marcia Weyne
-GitHub | LinkedIn
+🔗 GitHub: https://github.com/mbweyne/P5-veiculo.git
+🔗 LinkedIn: https://www.linkedin.com/in/marcia-weyne
