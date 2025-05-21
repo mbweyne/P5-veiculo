@@ -68,4 +68,4 @@ Acesse o app no Render:
 👩‍💻 Autor(a)
 Marcia Weyne
 🔗 GitHub: https://github.com/mbweyne/P5-veiculo.git
-🔗 LinkedIn: https://www.linkedin.com/in/marcia-weyne
+🔗 LinkedIn: https://www.linkedin.com/in/marcia-bayardino-weyne
