@@ -1,4 +1,4 @@
-![Banner do Projeto](banner.png)
+![Banner do Projeto](Banner.png)
 
 # 📊 Dashboard de Vendas de Veículos
 
