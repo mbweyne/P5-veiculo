@@ -1,3 +1,5 @@
+![Banner do Projeto](banner.png)
+
 # 📊 Dashboard de Vendas de Veículos
 
 Dashboard interativo desenvolvido com **Streamlit** para visualização de dados de anúncios de veículos nos EUA.  
